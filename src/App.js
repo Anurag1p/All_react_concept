@@ -1,6 +1,8 @@
 import './App.css';
 import Axios from './Axios';
 import AxiosPost from './AxiosPost';
+import Controlled from './Controlled';
+import UncontrolledCompo from './UncontrolledCompo';
 // import TodoList from './TodoList';
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
    {/* <TodoList/> */}
 
 {/* <Axios/> */}
-<AxiosPost/>
+{/* <AxiosPost/> */}
+
+{/* <Controlled/> */}
+<UncontrolledCompo/>
 
     </div>
     
