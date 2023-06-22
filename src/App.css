@@ -84,3 +84,23 @@ button:hover{
 .removebtn{
   margin-bottom: 7px;
 }
+span{
+  color: black;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+/* .defination{
+  background: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+li{
+  color: red;
+}
+p{
+  color: #2412c7;
+}

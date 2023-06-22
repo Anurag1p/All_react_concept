@@ -1,28 +1,46 @@
-import './App.css';
-import Axios from './Axios';
-import AxiosPost from './AxiosPost';
-import Controlled from './Controlled';
-import UncontrolledCompo from './UncontrolledCompo';
+import "./App.css";
+import Axios from "axios";
+import AxiosPost from "./components/AxiosPost";
+import Controlled from "./components/Controlled";
+import UncontrolledCompo from "./components/UncontrolledCompo";
+import AllDefinations from "./components/AllDefinations";
+import Reusablecomponent from "./components/Reusablecomponent";
+import StateInReact from "./components/StateInReact";
+import UseStatehook from "./components/UseStatehook";
+import UseEffectHook from "./components/UseEffectHook";
 // import TodoList from './TodoList';
 
 function App() {
   return (
     <>
-    
-    <div className='App'>
-   {/* <TodoList/> */}
+      <div className="App">
+        {/* <AllDefinations /> */}
 
-{/* <Axios/> */}
-{/* <AxiosPost/> */}
+        {/* -----------These two component calls are to show how we reuse our component using props ----------- */}
 
-{/* <Controlled/> */}
-<UncontrolledCompo/>
+        {/* <Reusablecomponent name="Anurag pal is my name"/>
+      <Reusablecomponent name="I am a software Developer"/> */}
 
-    </div>
-    
-    
+        {/* Example for State in react  */}
+        {/* <StateInReact/> */}
+
+        {/* Hooks in react  */}
+
+        {/* ---------------------------useState ----------------- */}
+{/* <UseStatehook/> */}
+
+        {/* ---------------------------useEffect ----------------- */}
+        <UseEffectHook/>
+
+        {/* <TodoList/> */}
+
+        {/* <Axios/> */}
+        {/* <AxiosPost/> */}
+
+        {/* <Controlled/> */}
+        {/* <UncontrolledCompo/> */}
+      </div>
     </>
-   
   );
 }
 
