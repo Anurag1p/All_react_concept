@@ -8,6 +8,9 @@ import Reusablecomponent from "./components/Reusablecomponent";
 import StateInReact from "./components/StateInReact";
 import UseStatehook from "./components/UseStatehook";
 import UseEffectHook from "./components/UseEffectHook";
+import UseNav from "./components/UseNav";
+import { BrowserRouter, Router, Route } from 'react-router-dom';
+
 // import TodoList from './TodoList';
 
 function App() {
@@ -30,8 +33,14 @@ function App() {
 {/* <UseStatehook/> */}
 
         {/* ---------------------------useEffect ----------------- */}
-        <UseEffectHook/>
+        {/* <UseEffectHook/> */}
 
+{/* Use navigation  */}
+<BrowserRouter>
+<Router>
+      <Route path="/" component={UseNav} />
+    </Router>
+    </BrowserRouter>
         {/* <TodoList/> */}
 
         {/* <Axios/> */}
